@@ -1,0 +1,9 @@
+def findMax(arr):
+    maximum = arr[0]
+    for x in arr:
+        if x > maximum:
+            maximum = x
+    return maximum
+print(findMax([1, 2, 3, 4, 5]))
+print(findMax([7, 7, 7, 7, 7]))
+print(findMax([-10, 2, 3, -4, 5]))
